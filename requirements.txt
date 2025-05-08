@@ -1,0 +1,9 @@
+Flask==2.3.2
+Flask-Cors==3.0.10
+pymongo[srv]==4.5.0
+tensorflow==2.13.0
+keras==2.13.1
+Pillow==10.0.0
+numpy==1.24.4
+pytz==2023.3
+requests==2.31.0
