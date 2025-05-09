@@ -16,10 +16,8 @@ def create_app():
     client = MongoClient(os.getenv("MONGODB_URI"))
     app.db = client["batikmadura"]["predictions"]
 
-    # Load model before first request
-    @app.before_first_request
-    def load_batik_model():
-        app.model = async_to_sync(load_model)()
+    # Load model langsung saat app dibuat
+    app.model = async_to_sync(load_model)()
 
     app.register_blueprint(bp)
 
