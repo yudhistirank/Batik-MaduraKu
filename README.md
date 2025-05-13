@@ -61,8 +61,6 @@ Backend Batik MaduraKu adalah API yang membantu model untuk meelakukan klasifika
     
 - `GET /predicts`
   - Deskripsi: Menampilkan semua riwayat hasil prediksi.
-  - Form-data:
-    - `image`: file gambar `.jpg` atau `.png`
   - Response:
     ```json
     {
