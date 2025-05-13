@@ -1,4 +1,4 @@
-# Frontend - Klasifikasi Batik
+# Frontend - Batik MaduraKu
 
 Frontend Batik MaduraKu adalah implementasi UI/UX untuk website klasifikasi Batik Madura berbasis HTML, CSS, dan JavaScript (Vanilla JS).
 
@@ -30,7 +30,7 @@ Frontend Batik MaduraKu adalah implementasi UI/UX untuk website klasifikasi Bati
     python -m http.server 5500
     ```
 
-3. Pastikan endpoint di `main.js` mengarah ke Cloud Run:
+3. Pastikan endpoint di `api.js` mengarah ke Cloud Run:
     ```javascript
     const API_URL = "https://batik-backend-xxxx.a.run.app/predict";
     ```
