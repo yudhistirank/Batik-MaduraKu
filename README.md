@@ -1,4 +1,4 @@
-# Backend - Klasifikasi Batik
+# Backend - API & Machine Learning Server
 
 Backend Batik MaduraKu adalah API yang membantu model untuk meelakukan klasifikasi Batik Madura vs Batik Luar Madura menggunakan framework Flask.
 
